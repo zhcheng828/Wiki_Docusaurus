@@ -22,17 +22,15 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         blog: {
-          path: "./blog",
-          routeBasePath: "/",
-          //showReadingTime: true,
+          showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
         },
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   // Please change this to your repo.
-        //   editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
-        // },
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
+        },
     
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

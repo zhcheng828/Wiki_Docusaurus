@@ -21,17 +21,17 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
-        },
+    
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -102,7 +102,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Codenow, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

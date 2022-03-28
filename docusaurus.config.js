@@ -22,6 +22,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         blog: {
+          path: "./blog",
+          routeBasePath: "/",
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',

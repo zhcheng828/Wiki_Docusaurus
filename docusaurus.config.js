@@ -49,13 +49,14 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/blog', label: '博客', position: 'left'},
           {
             type: 'doc',
             docId: 'intro',
-            position: 'right',
-            label: 'Tutorial',
+            position: 'left',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
           {
             href: 'https://github.com/zhcheng828/Wiki_Docusaurus',
             label: 'GitHub',
@@ -70,7 +71,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: '文档',
                 to: '/docs/intro',
               },
             ],

@@ -108,7 +108,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Codenow. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Codenow`,
       },
       prism: {
         theme: lightCodeTheme,

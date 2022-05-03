@@ -21,12 +21,17 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
-        },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+          
+        //   // Please change this to your repo.
+        //   editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
+        // },
+    
+
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/zhcheng828/Wiki_Docusaurus/blob/master/',
@@ -49,13 +54,13 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/blog', label: '博客', position: 'left'},
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: '文档',
-          },
+          //{to: '/blog', label: '博客', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'docs',
+          // },
 
           {
             href: 'https://github.com/zhcheng828/Wiki_Docusaurus',
@@ -71,8 +76,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '文档',
-                to: '/docs/intro',
+                label: 'docs',
+                to: '/',
               },
             ],
           },
@@ -103,7 +108,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Codenow, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Codenow. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

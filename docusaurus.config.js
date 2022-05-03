@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Codenow',
   tagline: '心之所向，虽千万人吾往矣; 意之所趋，纵既济亦不止也。',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.codenow.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -119,6 +119,10 @@ const config = {
 
 module.exports = {
   // ...
+  title: 'My Site',
+  url: 'https://docs.codenow.top',
+  baseUrl: '/',
+  themes: ['@docusaurus/theme-search-algolia'],
   themeConfig: {
     // ...
     algolia: {

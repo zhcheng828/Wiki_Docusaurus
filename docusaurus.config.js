@@ -114,6 +114,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        apiKey: "7d0393e86120dbdfd7a74789b60e7159",
+        indexName: "Wiki_Docusaurus",
+        contextualSearch: true,
+        appId: "THUVBFGM73",
+      },
     }),
 };
 

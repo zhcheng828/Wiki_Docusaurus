@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "75d4b2b2ddfaa45a",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a421c3ce7651bdc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CMU 15-445/course01.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b63a56b0582b8cc8",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fbe0b51ddc142a9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62b47e443a01cd50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "04df8b3e40d78130",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e8e2838878ec743",
+    "type": "split",
+    "children": [
+      {
+        "id": "20e7e441f39cdf19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f249b2ac6e655762",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CMU 15-445/course01.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6be50fa5106e379d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "be5f94039f7cfb44",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "4a421c3ce7651bdc",
+  "lastOpenFiles": [
+    "CMU 15-445/course01.md",
+    "MIT 6.824/11.md",
+    "intro.md"
+  ]
+}

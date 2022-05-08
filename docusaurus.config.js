@@ -48,7 +48,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '课程学习笔记',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -111,7 +111,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Codenow`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
       algolia: {
